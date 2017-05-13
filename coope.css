@@ -1,0 +1,257 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  }
+  
+.cos{font-size:12px; color: black;}
+
+.cos2{font-size:14px; color: grey;}
+
+.cos16{font-size: 16px;}
+
+.cos18{font-size: 18px;}
+
+.cos_majus {font-size:14px; 
+  color: black;   
+  text-transform: uppercase;}
+
+.cos_majus a:link{color:red; }
+.cos_majus a:visited{color:red; }
+.cos_majus a:hover{color:white; background-color:red; border: 1px solid red;}
+.cos_majus a:active{color:white; background-color:red;  border: 1px solid red;}
+
+.h1{
+  height:24px;
+  color: white;
+  text-transform: uppercase;
+  font-size:18px;
+  vertical-align: middle;
+  text-align: center;}
+
+.h2{font-size:16px;
+  }
+ 
+.h3 {font-size:18px;
+  font-weight: bold;
+  }
+
+.path {
+	padding-left: 20px; 
+	text-align: left;}
+	
+.error{color: red;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px; 
+  overflow: visible;}
+  
+.comment{color: red;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px; 
+  overflow: visible;}
+
+.cap{width: 960px;
+	height:150px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto; 
+  	border: 0px solid green;
+} 
+ 
+.pagina{ position:relative; 
+   width: 960px; 
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+  	border: 0px solid green; }
+  
+.contenidor_1 {width: 960px;
+	display: block;
+	border: 0px solid blue; }
+	
+.contenidor_fac {width: 750px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	display: block;
+	border: 0px solid blue; }
+
+.contenidor_2 {width: 468px;
+	display: block;
+	border: 0px solid orange;  }
+	
+.contenidor_3 {width: 319px;
+	display: block;
+	border: 0px solid black;  }
+	
+.contenidor_4 {width: 240px;
+	display: block;
+	border: 0px solid red;
+	background-color: ;  }
+
+.contenidor_4_3 {width: 720px;
+	display: block;
+	border: 0px solid cyan;
+	background-color: ;  }
+
+select {color: black;
+	background-color:white; 
+	border: 1px solid red;
+	-moz-border-radius: 2%;}
+
+textarea {color: #781351;
+	background-color:white; 
+	border: 1px solid red;
+	text-align: left;
+	-moz-border-radius: 2%;}
+
+input	{color: #781351;
+		text-align: center;}
+  
+input.button {border:1px solid red; 
+  background-color:#f9f9f9; 
+  text-transform: uppercase;
+  color: black;
+  font-size: 16px;
+  overflow: visible;
+  -moz-border-radius: 10%;}
+
+input.button:link{}
+input.button:visited{}
+input.button:hover{
+  border:1px solid black;
+  background-color:#f47216;}
+input.button:active{
+  border:1px solid black;
+  background-color: green;
+  color: white;}
+
+input.button2 {border:1px solid red; 
+  background-color:#f9f9f9; 
+  text-transform: uppercase;
+  color: black;
+  font-size: 12px;
+  width: 80px;
+  vertical-align: middle;
+  overflow: visible;
+  -moz-border-radius: 10%;}
+
+input.button2:link{}
+input.button2:visited{}
+input.button2:hover, input.button2:active {
+  border:2px solid #f9f9f9;
+  background-color:grey;
+  color:#f9f9f9;}
+
+.linia_button2{
+  height: 28px;
+  color: white;
+  text-transform: uppercase;
+  font-size:18px;
+  vertical-align: middle;
+  text-align: center;}
+
+p.form {display: block;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: left;
+  overflow: visible;
+  margin-top: 5px; margin-bottom: 5px;
+  }
+
+td.form {
+	font-size: 16px;
+  	text-transform: uppercase;}
+
+a:link{color: red;}
+a:visited{color:red;}
+a:hover{color:green;}
+a:active{color:red;}
+
+.menu {margin-top: 10px;
+  height: 50px;
+}
+
+.menu a { -moz-border-radius: 10% 10% 10% 10%;
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid red;
+    display: table;
+    float: right;
+    font-size: 10px;
+    height: 35px;
+    margin-right: 8px;
+    overflow: visible;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 90px;  }
+
+.menu a span{ display: table-cell;
+    height: 40px;
+    vertical-align: middle;
+    word-wrap: break-word;}
+
+.menu a:link{color:black; }
+.menu a:visited{color:black;}
+.menu a:hover{color:black; background-color:orange; border: 1px solid black;}
+.menu a:active{color:white; background-color:green;  border: 1px solid black;}
+
+.cat {margin-top: 10px;
+  margin-left:20px;
+  height: 36px;
+}
+
+.cat a {display: block;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  overflow: visible;
+  background: transparent ;
+  float: left;
+  line-height: 100%;
+  vertical-align: middle;
+  width: 120px; 
+  height: 30px; 
+  border: 1px solid black;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 8px;   
+  }
+
+.cat a span{display:block; padding-top: 5px; padding-bottom: 5px; }
+
+/*Added for 30 panxes */
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted grey; /* If you want dots under the hoverable text */
+}
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
