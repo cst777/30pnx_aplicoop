@@ -8,7 +8,7 @@
 // -----------------------------------------------------------------------------
 
 // Password required to gain access to the project
-define('SW_PROJECT_PASSWORD', 'Massadas');
+define('SW_PROJECT_PASSWORD', '*****');
 
 // Location of Reportico Top Level Directory From Browser Point of View
 define('SW_HTTP_BASEDIR', './');
@@ -55,10 +55,10 @@ define('SW_DB_DATABASE', SW_FRAMEWORK_DB_DATABASE);
 else
 {
 define('SW_DB_DRIVER', SW_DB_TYPE);
-define('SW_DB_USER', 'dbo655937740');
-define('SW_DB_PASSWORD', 'Massadas');
-define('SW_DB_HOST', 'db655937740.db.1and1.com');
-define('SW_DB_DATABASE', 'db655937740');
+define('SW_DB_USER', '***********');
+define('SW_DB_PASSWORD', '**********');
+define('SW_DB_HOST', '***************');
+define('SW_DB_DATABASE', '*********');
 }
 define('SW_DB_CONNECT_FROM_CONFIG', true);
 define('SW_DB_DATEFORMAT', 'Y-m-d');
