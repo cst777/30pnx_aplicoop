@@ -9,7 +9,7 @@
 
 // Password required to gain access to Administration Panel
 // Set to Blank to allow reset from browser
-define('SW_ADMIN_PASSWORD','30PNXS_dw');
+define('SW_ADMIN_PASSWORD','***********');
 
 define('SW_HTTP_BASEDIR', './');
 define('SW_HTTP_URLHOST', 'http://127.0.0.1');
